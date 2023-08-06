@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #e9e8e8;
+    padding: 0 30px;
 }
 .container{
     background: #fff;
