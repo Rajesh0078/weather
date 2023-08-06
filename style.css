@@ -88,4 +88,10 @@ body{
         padding-left: 15px ;
         width: 100%;
     }
+    body{
+        display: block;
+    }
+    h1{
+        text-align: center;
+    }
 }
