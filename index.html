@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2ea3cb570.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 style="padding: 20px 0;"><span style="color: rgb(247, 89, 32);">Weather</span> Application</h1>
+    <div class="container">
+        <form>
+            <input type="search" placeholder="search for a location" id="search-input">
+            <label for="search-input" id="search-btn"><i class="fa fa-search"></i></label>
+        </form>
+        <h3>Weather in <span id="city-name">tokyo</span></h3>
+        <h2 class="temp">26.50</h2>
+        <span>
+            <i></i>
+            <p class="status">clouds</p>
+        </span>
+        <p id="humidity">humidity: 88%</p>
+        <p id="wind">wind speed: 8.23</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

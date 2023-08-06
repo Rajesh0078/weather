@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Rubik:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s linear;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e9e8e8;
+}
+.container{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, .7);
+}
+.container form{
+    margin-bottom: 20px;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+.container form input{
+   height: 3rem;
+    background: #fff;
+    border: .1rem solid rgb(255, 68, 0);
+    width: 20rem;
+    padding: 0 20px;
+    font-size: 15px;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.container form label{
+    height: 100%;
+    background:rgb(255, 68, 0) ;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width: 3.6rem;
+    cursor: pointer;
+}
+.container form i{
+    margin-top: .6rem;
+    margin-left: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.container h3{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+.container h2{
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+}
+.container p{
+    font-size: 1.2rem;
+    padding-bottom: .7rem;
+}
+#city-name{
+    color: orangered;
+}
+
+
+
+@media screen and (max-width:360px) {
+    html{
+        font-size: 62.5%;
+    }
+    .container form i{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .container form input{
+        padding-left: 15px ;
+        width: 100%;
+    }
+}
